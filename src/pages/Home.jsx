@@ -1,5 +1,6 @@
 import React from 'react';
 import Logo from 'Assets/Images/logo-color.png';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -19,8 +20,17 @@ const Home = () => {
             </div>
 
             <div>
-              <button className='btn btn-primary rounded-md px-5 py-2 text-white text-xl uppercase'>Register</button>
-              <button className='btn btn-warning mx-3 rounded-md px-5 py-2 text-xl uppercase'>Login</button>
+              <Link to='/signup'>
+                <button className='btn btn-primary rounded-md px-5 py-2 text-white text-xl uppercase'>
+                  Register
+                </button>
+              </Link>
+              
+              <Link to='/signin'>
+                <button className='btn btn-warning mx-5 rounded-md px-5 py-2 text-xl uppercase'>
+                  Login
+                </button>
+              </Link>
             </div>
           </div>
         </div>
