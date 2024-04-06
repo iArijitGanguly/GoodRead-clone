@@ -6,14 +6,14 @@ export default defineConfig({
   resolve: {
     alias: {
       src: "/src",
-      components: "/src/components",
-      pages: "/src/pages",
-      assets: "/src/assets",
-      layouts: "/src/layouts",
-      configs: "/src/config",
-      routes: "/src/routes",
-      redux: "/src/redux",
-      helpers: "/src/helpers"
+      Components: "/src/Components",
+      Pages: "/src/Pages",
+      Assets: "/src/Assets",
+      Layouts: "/src/Layouts",
+      Configs: "/src/Config",
+      Routes: "/src/Routes",
+      Redux: "/src/Redux",
+      Helpers: "/src/Helpers"
     }
   }
 })

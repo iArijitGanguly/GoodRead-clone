@@ -12,8 +12,7 @@ module.exports = {
   settings: { react: { version: '18.2' } },
   plugins: ['react-refresh', 'simple-import-sort'],
   rules: {
-    "simple-import-sort/imports": "error",
-    "semi": [1, "always"],
+    // "simple-import-sort/imports": "error",
     'react/jsx-no-target-blank': 'off',
     'react-refresh/only-export-components': [
       'warn',

@@ -1,4 +1,5 @@
-import Home from "pages/Home";
+
+import Home from "Pages/Home";
 import React from "react";
 
 
